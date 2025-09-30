@@ -1,0 +1,31 @@
+<!-- HTML File for CP-HIDScripter -->
+<!-- Author - WireBits -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>CP-HIDScripter</title>
+</head>
+<body>
+  <div id="container">
+    <div id="title">CP-HIDScripter</div>
+    <div class="textAreasContainer">
+      <textarea id="mnemonicsArea" class="textarea" placeholder="Enter Mnemonics"></textarea>
+      <textarea id="cpArea" class="textarea" placeholder="Your CircuitPython Script" readonly></textarea>
+    </div>
+    <div id="buttons">
+      <button id="convert" onclick="convertMnemonics()">Convert</button>
+      <button id="copy" onclick="copyCPArea()">Copy</button>
+      <button id="reset" onclick="resetTextAreas()">Reset</button>
+      <button id="save" onclick="saveFile()">Save</button>
+      <button id="from" onclick="triggerFileInput()">From</button>
+      <input type="file" id="fileInput" onchange="handleFileSelect(event)">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
