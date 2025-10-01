@@ -15,6 +15,9 @@ It basically converts the mnemonics with values into circuitpython scripts so th
 - Save Button : Save circuitpython scripts on the system for future use.
 - From Button : Upload `.txt` files which contain mnemonics to load on mnemonics window.
 
+# 🎥Demo Video
+https://github.com/user-attachments/assets/cecb20a6-ce4c-40ff-9895-c819e930ed7d
+
 # ✅Supported Boards
 - Those boards which support `CircuitPython` and it supports `usb_hid` module.
 
