@@ -56,7 +56,7 @@ body {
     resize: none;
     width: 100%;
     max-width: 2000px;
-    height: 480px;
+    height: 460px;
     padding: 20px;
     border: 2px solid #7B68EE;
     border-radius: 8px;
@@ -114,3 +114,4 @@ input[type="file"] {
     display: none;
 
 }
+
